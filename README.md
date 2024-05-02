@@ -1,6 +1,8 @@
-# Financial Data Analysis Tool
+# Financial Data Analyzer
 
-This application allows users to upload financial data either via CSV file or through an open-source financial API. The uploaded data is then used to generate graphical representations based on user queries.
+Financial Data Analyzer provides a user-friendly UI for uploading financial data, performing analytics on historical data, and generating graphical representations based on user queries. It supports both CSV uploads and API-driven data retrieval, allowing users to explore financial data conveniently.
+
+This project leverages the Generative AI technologies specifically Langchain to streamline the process of generating code for fetching and analyzing financial data. The integration of Generative AI enhances accessibility and usability, allowing users to derive valuable insights from financial data without the need for extensive programming knowledge.
 
 ## Features
 
@@ -8,6 +10,13 @@ This application allows users to upload financial data either via CSV file or th
 - Give query what you want from the data. 
 - Graphical representation of data based on user queries.
 - Conversion of graphs into images and upload to Cloudinary.
+
+## Technology Used
+- Streamlit: Used for building the user interface.
+- Langchain: Utilized for code generation using GPT-3.5 Turbo model.
+- OpenAI GPT-3.5 Turbo: Used for generating code based on user queries.
+- Cloudinary: Used for uploading and storing generated images.
+
 
 ## Getting Started
 
