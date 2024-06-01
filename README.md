@@ -4,9 +4,12 @@ Financial Data Analyzer provides a user-friendly UI for uploading financial data
 
 This project leverages the Generative AI technologies specifically Langchain to streamline the process of generating code for fetching and analyzing financial data. The integration of Generative AI enhances accessibility and usability, allowing users to derive valuable insights from financial data without the need for extensive programming knowledge.
 
+### Project Video 
+[Watch the video here](https://www.loom.com/share/c2068460e2cc4a0cb2d53d2ed3d74242?sid=c5356841-c47b-40c3-9909-60c84a26daa7)
+
 ## Features
 
-- Upload financial data via CSV file or through an open-source financial API.
+- Upload financial data via CSV file or through an open-source financial API(I have used the alpha vantage API).
 - Give query what you want from the data. 
 - Graphical representation of data based on user queries.
 - Conversion of graphs into images and upload to Cloudinary.
